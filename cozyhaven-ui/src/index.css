@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border-radius: 12px !important;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1) !important;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.modal-content {
+  border-radius: 16px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.nav-link {
+  cursor: pointer;
+}
